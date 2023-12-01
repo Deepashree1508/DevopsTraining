@@ -1,6 +1,9 @@
 package com.edureka.sample;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class SampleApplication {
  public void run() {
 	 System.out.println("Started the practice");
@@ -12,7 +15,8 @@ public class SampleApplication {
  }
  public static void main(String[] args) throws Exception {
 	 SampleApplication application= new SampleApplication();
-	 application.run();
+	 //application.run();
+	 SpringApplication.run(SampleApplication.class, args);
 }
 
 }
