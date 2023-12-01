@@ -1,1 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<coverage line-rate="0.9">
+<sources>
+<source>src/main/java
+</source>
+</sources>
+<packages>
+</packages>
+</coverage>
